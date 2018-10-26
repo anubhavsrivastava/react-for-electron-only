@@ -1,0 +1,28 @@
+{
+  "name": "electron-only",
+  "version": "0.1.0",
+  "description": "React component for rendering component for Electron based clients only",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anubhavsrivastava/react-for-electron-only.git"
+  },
+  "keywords": [
+    "electron",
+    "react",
+    "react-components",
+    "components",
+    "electronjs",
+    "electron-react",
+    "react-electron"
+  ],
+  "author": "anubhavsrivastava <anubhav.srivastava00@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anubhavsrivastava/react-for-electron-only/issues"
+  },
+  "homepage": "https://github.com/anubhavsrivastava/react-for-electron-only#readme"
+}
