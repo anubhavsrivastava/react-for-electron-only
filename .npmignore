@@ -1,4 +1,4 @@
 src
-demo
+.nvmrc
 .babelrc
 webpack.config.js
