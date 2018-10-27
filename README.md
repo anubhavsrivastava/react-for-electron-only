@@ -7,7 +7,7 @@ React component for rendering component for Electron based clients only.
 
 ### Trivial Case
 
-Considering any isomorphic app which is distributed on ElectronJS and also over Web with same react codebase, say for e.g slack (which renders same UI on electron desktop client and web), there are use cases when you want to render particular DOM node/components on Electron Only and not on browser or vice versa.
+Considering any isomorphic app which is distributed on ElectronJS and also over Web with same react codebase, say for eg. slack (which renders same UI on electron desktop client and web), there are use cases when you want to render particular DOM node/components on Electron Only and not on browser or vice versa.
 
 ### Exclusive Functionality
 
@@ -71,7 +71,7 @@ Use of such APIs also eliminate some validation errors.
         }
         ...
 
-    `ForNonElectronOnly` is exactly opposite of `ForElectronOnly`, i.e
+    `ForNonElectronOnly` is exactly opposite of `ForElectronOnly`, ie,
     it will render `div.electron-ui` on electron and `div.browser-ui` on browser.
 
 ## APIs
