@@ -1,28 +1,50 @@
 {
-  "name": "electron-only",
-  "version": "0.1.0",
-  "description": "React component for rendering component for Electron based clients only",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/react-for-electron-only.git"
-  },
-  "keywords": [
-    "electron",
-    "react",
-    "react-components",
-    "components",
-    "electronjs",
-    "electron-react",
-    "react-electron"
-  ],
-  "author": "anubhavsrivastava <anubhav.srivastava00@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/anubhavsrivastava/react-for-electron-only/issues"
-  },
-  "homepage": "https://github.com/anubhavsrivastava/react-for-electron-only#readme"
+	"name": "electron-only",
+	"version": "0.1.0",
+	"description": "React component for rendering component for Electron based clients only",
+	"main": "build/index.js",
+	"peerDependencies": {
+		"react": ">15.0.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "webpack --watch",
+		"build": "webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/anubhavsrivastava/react-for-electron-only.git"
+	},
+	"keywords": [
+		"electron",
+		"react",
+		"react-components",
+		"components",
+		"electronjs",
+		"electron-react",
+		"react-electron"
+	],
+	"author": {
+		"name": "Anubhav Srivastava",
+		"email": "anubhav.srivastava00@gmail.com"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/anubhavsrivastava/react-for-electron-only/issues"
+	},
+	"homepage": "https://github.com/anubhavsrivastava/react-for-electron-only#readme",
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-core": "^6.26.3",
+		"babel-loader": "^7.0.0",
+		"babel-preset-env": "^1.6.1",
+		"babel-preset-react": "^6.16.0",
+		"babel-preset-stage-0": "^6.24.1",
+		"react": "^16.6.0",
+		"webpack": "^4.23.1",
+		"webpack-cli": "^3.1.2"
+	},
+	"dependencies": {
+		"prop-types": "^15.6.2"
+	}
 }
