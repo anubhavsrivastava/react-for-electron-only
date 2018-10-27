@@ -15,6 +15,18 @@ There are set of APIs from electron that would give native UI feel eg, [`dialog`
 For instance, one may have folder/file path as input text on browser while on electron one may use `dialog.showOpenDialog` functionality via a button.
 Use of such APIs also eliminate some validation errors.
 
+## Install
+
+```
+$ npm install electron-only
+```
+
+or
+
+```
+yarn add electron-only
+```
+
 ## Example
 
 1.  `<ForElectronOnly>`
