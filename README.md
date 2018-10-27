@@ -112,7 +112,13 @@ Use of such APIs also eliminate some validation errors.
 
 #### Return values
 
-| value | descriptio                          | comment                                   |
+| value | description                         | comment                                   |
 | ----- | ----------------------------------- | ----------------------------------------- |
 | true  | if code is executed on Electron     |                                           |
 | false | if code is not executed on Electron | implies both browser and server execution |
+
+## License
+
+MIT License
+
+refer `LICENSE` file in this repository.
