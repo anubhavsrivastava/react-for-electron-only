@@ -6,8 +6,15 @@
 	"peerDependencies": {
 		"react": ">15.0.0"
 	},
+	"jest": {
+		"setupFiles": [
+			"./tests/setupTests.js"
+		]
+	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
+		"test": "jest",
+		"test:watch": "jest --watch",
+		"test:coverage": "jest --coverage",
 		"start": "webpack --watch",
 		"build": "webpack"
 	},
@@ -40,7 +47,12 @@
 		"babel-preset-env": "^1.6.1",
 		"babel-preset-react": "^6.16.0",
 		"babel-preset-stage-0": "^6.24.1",
+		"enzyme": "^3.7.0",
+		"enzyme-adapter-react-16": "^1.6.0",
+		"jest": "^23.6.0",
 		"react": "^16.6.0",
+		"react-dom": "^16.6.0",
+		"react-test-renderer": "^16.6.0",
 		"webpack": "^4.23.1",
 		"webpack-cli": "^3.1.2"
 	},
