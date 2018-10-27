@@ -1,4 +1,6 @@
-# `react-for-electron-only`
+# `react-for-electron-only` [![build status](https://api.travis-ci.org/anubhavsrivastava/react-for-electron-only.svg?branch=master)](https://api.travis-ci.org/anubhavsrivastava/react-for-electron-only) [![Coverage Status](https://coveralls.io/repos/github/anubhavsrivastava/react-for-electron-only/badge.svg?branch=master)](https://coveralls.io/github/anubhavsrivastava/react-for-electron-only?branch=master)
+
+[![NPM](https://nodei.co/npm/electron-only.png?downloads=true&stars=true)](https://www.npmjs.com/package/is-electron)
 
 React component for rendering component for Electron based clients only.
 `<ForElectronOnly>` would render children in case when react application runs in [Electron](https://electronjs.org/) Desktop client, else would render nothing(null) .
