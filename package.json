@@ -15,7 +15,7 @@
 		"test": "jest",
 		"test:watch": "jest --watch",
 		"test:coverage": "jest --coverage",
-		"coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
+		"coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
 		"start": "webpack --watch",
 		"build": "webpack"
 	},
