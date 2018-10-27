@@ -18,7 +18,7 @@ Use of such APIs also eliminate some validation errors.
 ## Install
 
 ```
-$ npm install electron-only
+$ npm install electron-only --save
 ```
 
 or
