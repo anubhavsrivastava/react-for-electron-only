@@ -3,7 +3,7 @@
 React component for rendering component for Electron based clients only.
 `<ForElectronOnly>` would render children in case when react application runs in [Electron](https://electronjs.org/) Desktop client, else would render nothing(null) .
 
-## Use Case
+## Use Cases
 
 ### Trivial Case
 
@@ -75,3 +75,44 @@ Use of such APIs also eliminate some validation errors.
     it will render `div.electron-ui` on electron and `div.browser-ui` on browser.
 
 ## APIs
+
+### `ForElectronOnly` Component
+
+#### Import mechanism
+
+    import ForElectronOnly from 'electron-only'
+
+#### Properties
+
+| prop               | type   | description                               | default value |
+| ------------------ | ------ | ----------------------------------------- | ------------- |
+| children (default) | `node` | Component to be render for electron       | `null`        |
+| fallbackComponent  | `node` | Component/Node to be rendered for browser | `null`        |
+
+### `ForNonElectronOnly` Component
+
+#### Import mechanism
+
+    import {ForNonElectronOnly} from 'electron-only'
+
+#### Properties
+
+| prop               | type   | description                                | default value |
+| ------------------ | ------ | ------------------------------------------ | ------------- |
+| children (default) | `node` | Component to be render for browser         | `null`        |
+| fallbackComponent  | `node` | Component/Node to be rendered for electron | `null`        |
+
+### `isElectron` function
+
+#### Import mechanism
+
+    import {isElectron} from 'electron-only'
+    //or import ElectronOnly from 'electron-only';
+    // and then ElectronOnly.isElectron function can be used
+
+#### Return values
+
+| value | descriptio                          | comment                                   |
+| ----- | ----------------------------------- | ----------------------------------------- |
+| true  | if code is executed on Electron     |                                           |
+| false | if code is not executed on Electron | implies both browser and server execution |
