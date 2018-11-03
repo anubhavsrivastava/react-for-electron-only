@@ -3,7 +3,7 @@
 [![build status](https://api.travis-ci.org/anubhavsrivastava/react-for-electron-only.svg?branch=master)](https://travis-ci.org/anubhavsrivastava/react-for-electron-only/)
 [![Coverage Status](https://coveralls.io/repos/github/anubhavsrivastava/react-for-electron-only/badge.svg?branch=master)](https://coveralls.io/github/anubhavsrivastava/react-for-electron-only?branch=master)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![GitHub issues](https://img.shields.io/github/issues/anubhavsrivastava/react-for-electron-only.svg?style=plastic)](https://github.com/anubhavsrivastava/react-for-electron-only/issues)
+[![GitHub issues](https://img.shields.io/github/issues/anubhavsrivastava/react-for-electron-only.svg?style=flat-square)](https://github.com/anubhavsrivastava/react-for-electron-only/issues)
 
 [![NPM](https://nodei.co/npm/electron-only.png?downloads=true&stars=true)](https://www.npmjs.com/package/electron-only)
 
