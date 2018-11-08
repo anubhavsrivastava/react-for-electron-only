@@ -7,7 +7,7 @@
 
 [![NPM](https://nodei.co/npm/electron-only.png?downloads=true&stars=true)](https://www.npmjs.com/package/electron-only)
 
-React component for rendering component for Electron based clients only. It can be used for detection of [Electron](https://electronjs.org/) (ref: [isElectron](#iselectron-function) function).
+React component for rendering component for Electron based clients only. If you’re serving up the same code to a Web client and an Electron-based desktop client, this could help you split them apart where-ever necessary. It can be used for detection of [Electron](https://electronjs.org/) (ref: [isElectron](#iselectron-function) function).
 `<ForElectronOnly>` would render children in case when react application runs in [Electron](https://electronjs.org/) Desktop client, else would render nothing(null) .
 
 ## Use Cases
