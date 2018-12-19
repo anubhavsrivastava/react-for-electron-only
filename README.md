@@ -52,7 +52,7 @@ yarn add electron-only
         }
         ...
 
-    This is render `div.electron-ui` on electron and nothing on normal browsers.
+    This will render `div.electron-ui` on electron and nothing on normal browsers.
 
 2.  `<ForElectronOnly>` with `fallbackComponent` option
 
@@ -71,7 +71,7 @@ yarn add electron-only
         }
         ...
 
-    This is render `div.electron-ui` on electron and `div.browser-ui` on browser.
+    This will render `div.electron-ui` on electron and `div.browser-ui` on browser.
 
 3.  `ForNonElectronOnly` (supports fallbackComponent prop)
 
