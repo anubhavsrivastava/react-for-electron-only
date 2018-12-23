@@ -136,6 +136,16 @@ yarn add electron-only
 | true  | if code is executed on Electron     |                                           |
 | false | if code is not executed on Electron | implies both browser and server execution |
 
+---
+
+## Contribution
+
+Suggestions and PRs are welcome!
+
+Please create issue or open PR request for contribution.
+
+---
+
 ## License
 
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](LICENSE)
